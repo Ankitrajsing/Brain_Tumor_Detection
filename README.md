@@ -37,6 +37,7 @@ degree of accuracy than bounding-box annotations, which can include non-tumor
 regions. To retain a binary classification strategy, a polygon was used to annotate the
 full image of healthy brain MRI scans to show whether a tumor was present or not.
 This process is visually represented in Photo 3.2, where an original MRI scan (Img1) and its corresponding annotated version (Img-2) are displayed.
+</br>
 *Training and Their Output*
 Confusion Matrix
 </br>
