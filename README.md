@@ -22,8 +22,9 @@ such as LabelMe to provide pixel-wise segmentation masks. These masks are
 crucial for training the YOLOv12-Seg model for precise tumor boundary
 segmentation. Image dimensions are resized and standardized for compatibility
 with the model architecture.
-
+</br>
 <img width="576" height="313" alt="image" src="https://github.com/user-attachments/assets/53a2a719-2298-4c72-af2a-88baa9d29ca3" />
+</br>
 
 Accurate annotation plays a crucial role in deep-learning-based medical image
 analysis, as it directly impacts the model’s performance and diagnostic reliability. In
@@ -38,12 +39,13 @@ full image of healthy brain MRI scans to show whether a tumor was present or not
 This process is visually represented in Photo 3.2, where an original MRI scan (Img1) and its corresponding annotated version (Img-2) are displayed.
 *Training and Their Output*
 Confusion Matrix
-<img width="627" height="763" alt="image" src="https://github.com/user-attachments/assets/c6ce4fae-3472-425d-94bf-4dc228df8d1b" />
-Data From Confusion Matrix
-<img width="545" height="153" alt="image" src="https://github.com/user-attachments/assets/70de32e1-9a4b-4f8e-8dd7-97d0991d2df8" />
-Calculations
-<img width="559" height="683" alt="image" src="https://github.com/user-attachments/assets/133aac09-92ad-4e49-a7e8-ae30aef0b8a7" />
-F1 Score and P curve
+</br>
+<img width="627" height="763" alt="image" src="https://github.com/user-attachments/assets/c6ce4fae-3472-425d-94bf-4dc228df8d1b" /></br>
+Data From Confusion Matrix</br>
+<img width="545" height="153" alt="image" src="https://github.com/user-attachments/assets/70de32e1-9a4b-4f8e-8dd7-97d0991d2df8" /></br>
+Calculations</br>
+<img width="559" height="683" alt="image" src="https://github.com/user-attachments/assets/133aac09-92ad-4e49-a7e8-ae30aef0b8a7" /></br>
+F1 Score and P curve</br>
 <img width="621" height="875" alt="image" src="https://github.com/user-attachments/assets/792435ed-686d-4018-a74d-bc6d1864294e" />
 
 1. Class Distribution
@@ -76,11 +78,11 @@ typical medical ROI (regions of interest) detection tasks.
 5. Bounding Box Overlay Map
 The top-right subfigure of the label image shows multiple bounding boxes overlaid:
 The boxes are concentrated in the central image region, which may indicate a
-spatial bias in the dataset (regions of interest are more frequently located centrally)
-<img width="616" height="561" alt="image" src="https://github.com/user-attachments/assets/0164f2ad-cfc4-45be-b72c-c2342c5f3d25" />
-* PR Curve and R Curve *
-  <img width="555" height="728" alt="image" src="https://github.com/user-attachments/assets/e739f3dd-2ac0-44d0-b7df-a7cb34369d1b" />
-  Results
+spatial bias in the dataset (regions of interest are more frequently located centrally)</br>
+<img width="616" height="561" alt="image" src="https://github.com/user-attachments/assets/0164f2ad-cfc4-45be-b72c-c2342c5f3d25" /></br>
+* PR Curve and R Curve *</br>
+  <img width="555" height="728" alt="image" src="https://github.com/user-attachments/assets/e739f3dd-2ac0-44d0-b7df-a7cb34369d1b" /></br>
+  Results</br>
   <img width="587" height="345" alt="image" src="https://github.com/user-attachments/assets/c80f14ca-06a0-4218-8b42-fe63436847f1" />
 
 
